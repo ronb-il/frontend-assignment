@@ -1,0 +1,27 @@
+The assignment is as follows:
+
+Build a dashboard page according to the attached design, using HTML/CSS.
+Build a server side application based on NodeJS + ExpressJS, that will serve the files to the client.
+Use AngularJS or Angular (with or without TypeScript) for getting 'data.json' from the server, and generate the values in the dashboard page.
+
+Emphasis should be placed on the following:
+    - Supply a detailed README.md file, that explains how to run your app.
+    - Write clean code. Do not document unnecessary lines.
+    - Use conventional guidelines:
+        - http://www.w3schools.com/js/js_conventions.asp.
+    - You can use any external server/client side library that will help you build a better application (except bootstrap).
+    - The webpage should look exactly like the design. Cut the graphics directly from the PNG, if you can't, tell me and i'll send you the assets.
+    - Make sure the code works on the latest versions of the popuplar web browsers
+    - It is recommended to use a linting tool that will validate the code stantards
+
+Bonuses:
+    - Use scss.
+    - Use gulp and/or webpack/systemjs for building (compiling scss, compressing JavaScript, etc).
+    - Make the dashboard page responsive as possible.
+    - Add css animations.
+    - Use npm and/or bower.
+    - Put the provided data in a Mongodb instance and pull from the DB.
+    - Use docker for running the Node/Mongo server.
+	
+	
+Good luck.
