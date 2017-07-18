@@ -1,6 +1,5 @@
-
 {
-  "name": "admin-panel",
+  "name": "frontend-assignment",
   "version": "1.0.0",
   "description": "an angularjs 1.5.8 based admin panel",
   "main": "gulpfile.js",
@@ -22,7 +21,8 @@
     "jshint": "^2.9.3"
   },
   "dependencies": {
-    "angular-chart.js": "^1.0.3",
-    "chart.js": "^2.3.0"
+    "body-parser": "~1.17.1",
+    "express": "~4.15.2",
+    "morgan": "^1.8.2"
   }
 }

@@ -2,7 +2,7 @@
     <div class="row" style="padding-top:103px;padding-left:50px;">
         <div class="col-4" style="text-align: center">
             <p style="color:#fff;text-transform:uppercase;line-height:30px;">Clear Web</p>
-            <img src="assets/images/clear_web.gif" height="211" width="136" />
+            <img src="/images/clear_web.gif" height="211" width="136" />
         </div>
 
         <div class="col-4">
@@ -11,7 +11,7 @@
                     <p class="title">Types</p>
                 </div>
                 <div class="content clearfix">
-                    <div ng-repeat="(key, value) in $ctrl.data.ClearWeb.Types" class="type-entry ng-class: ($index>3) ? 'last-entry' : ''">
+                    <div ng-repeat="(key, value) in $ctrl.data.ClearWeb.Types" class="type-entry ng-class: ($index>3) ? 'last-entry' : '';">
                         <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA" class="{{ classNameFromKey(key) }}" />
                         <p>{{ value }}</p>
                         <p>{{ labelFromKey(key) }}</p>
@@ -37,7 +37,7 @@
                         <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#41b0d5" stroke-width="2" stroke-dasharray="{{ severitiesClearWeb['Low'].dashArray }}" stroke-dashoffset="{{ severitiesClearWeb['Low'].dashOffset }}"></circle>
                     </svg>
                     <div class="clearfix" style="color:#fff; width:80%; margin:-5px auto 0 auto">
-                        <div style="width:42%;float:left;text-align:left;"><p style="line-height:20px;font-size:12px;">HIGH<br><span style="font-size:15px">{{ severitiesClearWeb['High'].value }}</p></div>
+                        <div style="width:42%;float:left;"><p style="line-height:20px;font-size:12px;text-align:left;">HIGH<br><span style="font-size:15px">{{ severitiesClearWeb['High'].value }}</p></div>
                         <div style="width:16%;float:left;"><p style="text-align:left;width:90%;margin:0px auto;line-height:20px;font-size:12px;">MEDIUM<br/><span style="font-size:15px">{{ severitiesClearWeb['Medium'].value }}</span></p></div>
                         <div style="width:42%;float:left;"><p style="float:right;text-align:left;line-height:20px;font-size:12px;">LOW<br/><span style="font-size:15px">{{ severitiesClearWeb['Low'].value }}</span></p></div>
                     </div>
@@ -51,7 +51,7 @@
                     <p class="title">Sources (%)</p>
                 </div>
                 <div class="content" style="padding:4px 20px;">
-                    <div ng-repeat="(key, value) in $ctrl.data.ClearWeb.Sources" class="source-entry clearfix" style="">
+                    <div ng-repeat="(key, value) in $ctrl.data.ClearWeb.Sources" class="source-entry clearfix">
                         <p class="label">{{ labelFromKey(key) }} </p>
                         <div id="progressbar">
                             <!-- obviously this doesn't account for values greater than 100 -->
@@ -64,10 +64,10 @@
         </div>
     </div>
 
-    <div class="row" style="padding-top:18px;padding-left:50px;">
+    <div class="row" style="padding-top:18px; padding-left:50px;">
         <div class="col-4" style="text-align: center">
             <p style="color:#fff;text-transform:uppercase;line-height:30px;">Dark Web</p>
-            <img src="assets/images/dark_web.gif" height="206" width="136" />
+            <img src="/images/dark_web.gif" height="206" width="136" />
         </div>
 
         <div class="col-4">
@@ -116,7 +116,7 @@
                     <p class="title">Sources (%)</p>
                 </div>
                 <div class="content" style="padding:4px 20px;">
-                    <div ng-repeat="(key, value) in $ctrl.data.DarkWeb.Sources" class="source-entry clearfix" style="">
+                    <div ng-repeat="(key, value) in $ctrl.data.DarkWeb.Sources" class="source-entry clearfix">
                         <p class="label">{{ labelFromKey(key) }} </p>
                         <div id="progressbar">
                             <!-- obviously this doesn't account for values greater than 100 -->

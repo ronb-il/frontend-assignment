@@ -49,7 +49,6 @@ function DashboardController($log, $scope) {
   $scope.severitiesClearWeb = $scope.donutChartValues(ctrl.data.ClearWeb.Severities);
 
   ctrl.$onInit = function() {
-    $log.log("This will perform the REST API call to google analytics on page load");
   };
 };
 

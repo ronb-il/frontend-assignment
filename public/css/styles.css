@@ -227,32 +227,32 @@
     /* icons */
     .attack-indication {
         border:0;
-        background: url("/src/assets/images/attack_indication_icon.gif");
+        background: url("/images/attack_indication_icon.gif");
         width:40px;height:41px;
     }
     .data-leakage {
         border:0;
-        background: url("/src/assets/images/data_leakage_icon.gif");
+        background: url("/images/data_leakage_icon.gif");
         width:40px;height:41px;
     }
     .phishing {
         border:0;
-        background: url("/src/assets/images/phishing_icon.gif");
+        background: url("/images/phishing_icon.gif");
         width:40px;height:41px;
     }
     .brand-security {
         border:0;
-        background: url("/src/assets/images/brand_security_icon.gif");
+        background: url("/images/brand_security_icon.gif");
         width:40px;height:41px;
     }    
     .exploitable-data {
         border:0;
-        background: url("/src/assets/images/exploitable_data_icon.gif");
+        background: url("/images/exploitable_data_icon.gif");
         width:40px;height:41px;
     }  
     .vip {
         border:0;
-        background: url("/src/assets/images/vip_icon.gif");
+        background: url("/images/vip_icon.gif");
         width:40px;height:41px;
     }      
 

@@ -6,7 +6,7 @@ function routeProvider($routeProvider){
             initialData: function($http){
               return $http({
                 method: 'GET',
-                url: './assets/data.json'
+                url: '/api/dashboard'
               }).then(function successCallback(response) {
                 return response.data;
               })
