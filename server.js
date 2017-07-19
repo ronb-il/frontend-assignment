@@ -10,7 +10,7 @@ app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({'extended':'true'}));            
 app.use(bodyParser.json());
 
-// route
+// basic simple route
 app.get('/api/dashboard', function(req, res) {
     res.setHeader('Content-Type', 'application/json');
     fs.readFile('data.json', 'utf8', function (err, data) {
