@@ -5,12 +5,13 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #192834
 }
 
 header, footer {
     flex: 0 0 63px;
     max-height: 63px;            
-    background-color:#203c52;
+    background:#203c52 10px center url('/images/intsights_logo.gif') no-repeat;
 }
 
 ng-view,
@@ -171,6 +172,7 @@ div.panel:nth-child(4) {
 .source-entry p.label {
     line-height: 14px;
     margin:0;
+    min-width: 160px;
 }
 
 .source-entry p.source-value {
